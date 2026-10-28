@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 233, 233);
+}
+.Welcome-text{
+    display: flex;
+    justify-content: center;
+    color: chocolate;
+}
+
+#top-section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.btn{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    font-size: larger;
+}
+#top{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.top-section{
+    width: 2000px;
+    height: 200px;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+
+.top-section-btn{
+    display: flex;
+    gap: 30px;
+}
+
+#information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#information p{
+    padding-left: 50px;
+    color: cadetblue;
+}
+
+#information h1{
+    color: tomato;
+}
+#information h3{
+    color: green;
+}
+
+#main-img img{
+    height: 300px;
+}
